@@ -1,0 +1,14 @@
+# Local credentials
+config.ini
+
+# Real data must never be committed (use the synthetic sample data instead)
+*.csv
+!sample_data/**/*.csv
+*.xlsx
+!Models/Features_Importance.xlsx
+
+# OS / editor / Python noise
+.DS_Store
+~$*
+__pycache__/
+*.pyc

@@ -1,0 +1,26 @@
+PulpBrain
+Copyright 2023-2026 the PulpBrain authors: Zahra Poursorkh, Hooman Tavakolizadeh,
+Ashton Christy and Edward Grant (University of British Columbia), and contributors
+
+Developed under the University of British Columbia (UBC) - Canfor research
+partnership. The Raman import routines derive from a script by Ashton Christy (2018).
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE),
+with the following exceptions and notes:
+
+- sample_data/ is entirely synthetic and is dedicated to the public domain under
+  CC0 1.0 (see sample_data/LICENSE).
+
+- Models/TensileIndex_Fused_BW.joblib is a pre-trained demonstration model. It was
+  trained on measurements collected in the UBC-Canfor collaboration; that training
+  data is NOT part of this repository, and the remaining models of the full
+  PulpBrain model set are not distributed. The demo model is provided for testing
+  the software and is covered by the same Apache-2.0 license as the code.
+
+- The Canfor and UBC logos (assets/Canfor_logo.png, assets/UBC_logo.png) are trademarks of their
+  respective owners and are NOT covered by this license; they are included only
+  because the application's interface displays them.
+
+- PulpBrain depends on third-party packages under their own licenses. Notably,
+  PyQt5 is licensed under GPL v3 (or a commercial license); redistributing a
+  bundled binary of PulpBrain that includes PyQt5 requires complying with it.
